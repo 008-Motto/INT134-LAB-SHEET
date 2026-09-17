@@ -1,0 +1,7 @@
+{
+  "registry-mirrors": ["https://lvmolarn.sit.kmutt.ac.th"],
+  "log-driver": "local",
+  "log-opts": {
+    "max-size": "10m"
+  }
+}

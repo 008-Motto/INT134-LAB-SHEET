@@ -1,0 +1,25 @@
+# INT134 System Deployment — Introduction to Container — worked in class
+#
+# Put each answer inside a `|` block, exactly as you will write `run: |` in
+# Docker Compose later in this course.  Indentation matters: the answer lines sit
+# two spaces further in than their key.
+#
+# Only what is inside the blocks is marked. You may leave an answer blank.
+#
+# Fill in student_id and student_name below. They are checked against the VM you
+# are submitting from, so a wrong id is reported back to you on your next push.
+
+student_id: "68130500008"      # your 11-digit student number
+student_name: "Jakkrin Limkarn"
+
+answers:
+  # Step 6 — what one word did the engine use to refuse the pull?
+  # If your pull was not refused, write `not refused`.
+  T6: |
+    429 Too Many Requests
+  # Step 8 — which storage driver does this machine's engine use?
+  T8: |
+    overlayfs
+  # Step 22 — what did /school/ show after the fresh container started?
+  T22: |
+    Welcome to Nginx
